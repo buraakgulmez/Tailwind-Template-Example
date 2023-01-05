@@ -1,0 +1,68 @@
+/*#Header Slider*/
+#Header .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Header .swiper_wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+#Header .slider-wrapper {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #Header .swiper_wrap {
+    padding: 15px 0px;
+  }
+}
+/*#Header Slider*/
+
+/*#How Slider*/
+#How .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#How .swiper_wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+#How .slider-wrapper {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #How .swiper_wrap {
+    padding: 15px 0px;
+  }
+}
+/*#How Slider*/
+
+/*#Our Slider*/
+#Our .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Our .swiper_wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+#Our .slider-wrapper {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #Our .swiper_wrap {
+    padding: 15px 0px;
+  }
+}
+/*#Our Slider*/

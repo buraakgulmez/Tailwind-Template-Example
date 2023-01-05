@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <section class="text-gray-600 body-font top-0">
+      <div class="container mx-auto px-4 flex items-center space-x-5 text-xl flex-none">
+        <img src="./img/dentalbeauty.png" alt="" />
+        <div class="flex items-center mx-auto space-x-5 flex-1 w-64 flex-row-reverse hidden sm:flex">
+          <i class="far fa-scroll-old ml-10"
+            ><span class="font-black text-black">INFORMATION AND REQUEST FORM</span></i
+          >
+          <div class="border-r border-gray-500">
+            <a class="" href="tel:+90 555 555 55 55">
+              <button class="bg-black rounded-xl hover:bg-purple-700" type="button">
+                <i class="fal fa-phone-volume text-white font-bold text-2xl p-3">+90 555 555 55 55 </i>
+              </button>
+            </a>
+          </div>
+          <ul class="flex space-x-5">
+            <li class="">Follow Us</li>
+            <li>
+              <a class="hover:text-yellow-500" href="#">
+                <i class="fab fa-instagram text-2xl"></i>
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-yellow-500" href="#">
+                <i class="fab fa-facebook-f text-2xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Header"
+      class="text-white lg:p-20"
+      style="background: url(https://www.dentalimplant.dentalbeautyturkey.com/assets/front/img/header/bg.jpg)"
+    >
+      <div class="container-fluid mx-auto">
+        <div class="flex flex-wrap">
+          <div class="lg:w-1/3 w-full">
+            <h2 class="lg:text-5xl text-2xl font-normal p-6 text-center">
+              Everything Starts
+              <h2 class="font-extrabold lg:text-6xl text-5xl text-red-600 lg:p-6 text-center">
+                With a Smile
+              </h2>
+            </h2>
+            <p class="lg:text-xl text-normal font-light p-6">
+              We always listen to our patients first and combine their aesthetic and oral health with their
+              wishes and offer a personalized treatment plan.
+            </p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full">
+            <div class="swiper_wrap">
+              <div class="slider-wrapper">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        class="xl:w-full sm:w-100 border-5 p-3 bg-rose-700 border-rose-700"
+                        src="./img/3.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img
+                        class="xl :w-1/2 sm:w-100 border-5 p-3 bg-rose-700 border-rose-700"
+                        src="./img/3.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 lg:mt-0 md:w-1/3 lg:w-1/3 w-full lg:mb-0 mb-5">
+            <div class="bg-red-700 p-12 ml-5">
+              <h3 class="text-4xl">Make an Oppointment!</h3>
+              <p class="text-md mt-2">Let us answer everything you wonder!</p>
+              <div class="w-full h-full">
+                <input
+                  class="w-100 text-black p-3 rounded-md mt-3"
+                  type="text"
+                  name="name"
+                  placeholder="Name And Surname *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 text-black rounded-md mt-3"
+                  type="text"
+                  name="phone"
+                  placeholder="Phone Number *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 text-black rounded-md mt-3"
+                  type="text"
+                  name="E-Mail"
+                  placeholder="E-Mail Address *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 rounded-md mt-3 bg-black text-white text-3xl font-bold bg-gradient-to-l from-yellow-500"
+                  type="button"
+                  value="Contact Us"
+                  id=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="lg:p-10 p-16"
+      id="How"
+      style="
+        background: url(https://www.dentalimplant.dentalbeautyturkey.com/assets/front/img/howwework/bg.jpg);
+      "
+    >
+      <div>
+        <h2 class="lg:font-bold lg:text-4xl text-center lg:p-0 text-3xl font-semibold">How We Work</h2>
+        <p class="font-light lg:text-xl text-center lg:p-0 text-md">Everything Starts With a Smile</p>
+      </div>
+      <div class="container mt-3">
+        <div class="swiper_wrap">
+          <div class="slider-wrapper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="relative w-52 bg-pink-300 rounded-2xl h-72"></div>
+                  <div class="bg-pink-200 w-48 absolute rounded-2xl h-64 mt-3">
+                    <h5 class="text-xl font-bold text-center">Get in Touch With Us</h5>
+                    <img class="snap-center mt-4 ml-6 items-center" src="./img/stick.png" alt="" />
+                    <p class="text-center mt-3">Curabitur aliquet quam id dui posuere blandit. Vivamus</p>
+                  </div>
+                  <img class="relative bottom-12" src="./img/1222.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="relative w-52 bg-pink-300 rounded-xl h-72"></div>
+                  <div class="bg-pink-200 w-48 absolute rounded-2xl h-64 mt-3">
+                    <h5 class="text-xl font-bold text-center">Get Free Consultation</h5>
+                    <img class="snap-center ml-6 mt-4 items-center" src="./img/stick.png" alt="" />
+                    <p class="text-center mt-3">Curabitur aliquet quam id dui posuere blandit. Vivamus</p>
+                  </div>
+                  <img class="relative bottom-16 w-28" src="./img/tedavi-3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="relative w-52 bg-pink-300 rounded-xl h-72"></div>
+                  <div class="bg-pink-200 w-48 absolute rounded-2xl h-64 mt-3">
+                    <h5 class="text-xl font-bold text-center">Fly To Turkey</h5>
+                    <img class="snap-center ml-6 mt-12 items-center" src="./img/stick.png" alt="" />
+                    <p class="text-center mt-3">Curabitur aliquet quam id dui posuere blandit. Vivamus</p>
+                  </div>
+                  <img class="relative bottom-16 w-24" src="./img/tedavi-4.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="relative w-52 bg-pink-300 rounded-xl h-72"></div>
+                  <div class="bg-pink-200 w-48 absolute rounded-2xl h-64 mt-3">
+                    <h5 class="text-xl font-bold text-center">Beginner of Your Treatment</h5>
+                    <img class="snap-center ml-6 items-center mt-4" src="./img/stick.png" alt="" />
+                    <p class="text-center mt-3">Curabitur aliquet quam id dui posuere blandit. Vivamus</p>
+                  </div>
+                  <img class="relative bottom-16 w-28" src="./img/tedavi-5.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="
+        background: url(https://www.dentalimplant.dentalbeautyturkey.com/assets/front/img/aboutus/bg.jpg);
+      "
+      class="bg-cover bg-right bg-no-repeat p-12"
+    >
+      <div class="container">
+        <div class="lg:w-1/2 w-full">
+          <h1 class="text-3xl text-black font-light">About Us</h1>
+          <h3 class="text-4xl text-black font-semibold">Dental Beauty</h3>
+          <p class="text-xl font-extralight mt-2">
+            Dental Beauty Oral and Dental Health Polyclinic was established in 2007 in Antalya by Dentist Ayça
+            HOR and Dentist & Orthodontist Specialist Ali Bahadır HOR. In our clinic, all dental treatments
+            are performed together with orthodontic treatment. We carry out the health services we provide in
+            accordance with high disinfection and sterilization standards.
+          </p>
+          <p class="text-xl font-extralight mt-2">
+            We always listen to our patients first and combine their aesthetic and oral health with their
+            wishes and offer a personalized treatment plan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6" id="Our">
+      <div class="container text-center">
+        <h1 class="text-4xl font-bold">Our Services</h1>
+        <p class="font-light text-xl p-1">
+          We are working to provide the best service and to please our esteemed
+          <br />
+          patients to finish their treatments with a smile.
+        </p>
+        <div class="w-100 lg:p-5 p-0">
+          <div class="swiper_wrap">
+            <div class="slider-wrapper">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide bg-black p-5 hover:bg-red-700">
+                    <h1 class="text-5xl font-bold text-red-500">Implant Treatment</h1>
+                    <p class="text-white font-light text-xl">
+                      The most modern way to replace missing teeth or teeth... It should not be forgotten that
+                      your teeth are an organ that affects not only our chewing but also our speech,
+                      appearance and even our personal charisma.Implants can be applied in cases of single
+                      missing teeth, multiple missing teeth and complete edentulism. Implant is a solid,
+                      comfortable and reliable application. Prostheses made on implants replace real teeth,
+                      creating the most natural structure.
+                    </p>
+                    <img src="./img/1_2.png" alt="" />
+                  </div>
+                  <div class="swiper-slide bg-black p-5 hover:bg-red-700">
+                    <h1 class="text-5xl font-bold text-red-500">Implant Treatment</h1>
+                    <p class="text-white font-light text-xl">
+                      The most modern way to replace missing teeth or teeth... It should not be forgotten that
+                      your teeth are an organ that affects not only our chewing but also our speech,
+                      appearance and even our personal charisma.Implants can be applied in cases of single
+                      missing teeth, multiple missing teeth and complete edentulism. Implant is a solid,
+                      comfortable and reliable application. Prostheses made on implants replace real teeth,
+                      creating the most natural structure.
+                    </p>
+                    <img src="./img/77.png" alt="" />
+                  </div>
+                  <div class="swiper-slide bg-black p-5 hover:bg-red-700">
+                    <h1 class="text-5xl font-bold text-red-500">Implant Treatment</h1>
+                    <p class="text-white font-light text-xl">
+                      The most modern way to replace missing teeth or teeth... It should not be forgotten that
+                      your teeth are an organ that affects not only our chewing but also our speech,
+                      appearance and even our personal charisma.Implants can be applied in cases of single
+                      missing teeth, multiple missing teeth and complete edentulism. Implant is a solid,
+                      comfortable and reliable application. Prostheses made on implants replace real teeth,
+                      creating the most natural structure.
+                    </p>
+                    <img src="./img/66.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container p-0 flex items-center justify-center relative">
+        <div class="lg:w-2/5 hidden sm:block">
+          <img src="./img/solImg.jpg" alt="" />
+        </div>
+        <img class="absolute lg:top-auto -top-4" src="./img/whatsapp.png" alt="" />
+        <div class="lg:w-2/5 flex items-center justify-center bg-red-600 h-44 w-full lg:mt-0 mt-12">
+          <div
+            class="p-2 flex justify-center flex-column items-start border-y-2 border-gray-300 items-center"
+          >
+            <span class="text-2xl font-bold">Ask us what's on your mind!</span>
+            <a class="hover:text-purple-400 text-xl text-center" href="#">+90 555 555 55 55</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4" id="Before">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="w-full" src="./img/bef-1.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex justify-center items-start my-2">
+        <div class="w-full sm:w-10/12 md:w-1/2 my-1">
+          <h2 class="text-xl font-semibold text-vnet-blue mb-2 mt-8">FAQ - Order, Shipping, Etc.</h2>
+          <ul class="flex flex-col">
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(1)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>When will my order arrive?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                x-ref="tab"
+                :style="handleToggle()"
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+              >
+                <p class="p-3 text-gray-900">
+                  Shipping time is set by our delivery partners, according to the delivery method chosen by
+                  you. Additional details can be found in the order confirmation
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(2)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>How do I track my order?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Once shipped, you’ll get a confirmation email that includes a tracking number and additional
+                  information regarding tracking your order.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(3)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What’s your return policy?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  We allow the return of all items within 30 days of your original order’s date. If you’re
+                  interested in returning your items, send us an email with your order number and we’ll ship a
+                  return label.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(4)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>How do I make changes to an existing order?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Changes to an existing order can be made as long as the order is still in “processing”
+                  status. Please contact our team via email and we’ll make sure to apply the needed changes.
+                  If your order has already been shipped, we cannot apply any changes to it. If you are
+                  unhappy with your order when it arrives, please contact us for any changes you may require.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(5)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What shipping options do you have?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">For USA domestic orders we offer FedEx and USPS shipping.</p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(6)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What payment methods do you accept?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"
+                  ></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Any method of payments acceptable by you. For example: We accept MasterCard, Visa, American
+                  Express, PayPal, JCB Discover, Gift Cards, etc.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container mt-5 p-0 relative">
+        <div class="flex flex-wrap">
+          <div class="lg:w-2/3 w-full">
+            <div class="w-full">
+              <div class="flex items-center justify-center h-48">
+                <div class="lg:w-1/2 w-full h-full hidden sm:block">
+                  <img class="h-48" src="./img/solImg.jpg" alt="" />
+                </div>
+                <img class="absolute lg:top-auto -top-14" src="./img/whatsapp.png" alt="" />
+                <div class="lg:w-1/2 w-full flex items-center justify-center h-full bg-red-600">
+                  <div
+                    class="p-2 flex justify-center flex-column items-start border-y-2 border-gray-300 items-center"
+                  >
+                    <span class="text-2xl font-bold">Ask us what's on your mind!</span>
+                    <a class="text-xl hover:text-black" href="#">0555 555 55 55</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full p-14 bg-black z-0">
+              <div class="row">
+                <div class="lg:w-1/2 w-full">
+                  <div class="flex flex-wrap flex-col content-center">
+                    <div class="lg:border-r-2 border-gray-500 mt-1.5">
+                      <img src="./img/dentalbeauty-2.png" alt="" />
+                      <p class="text-sm font-extralight text-white">
+                        The mission of VM Dent Dental Clinic is to develop long-term relationships with our
+                        patients and to provide excellent service through personalized, honest, ethical and
+                        informed dental care. At our clinic you will find high-tech dental equipment and
+                        modern methods for treatment in every area of dental medicine.
+                      </p>
+                      <div class="flex gap-3 text-white mt-3">
+                        <span>Follow Us</span>
+                        <ul class="flex gap-3">
+                          <li>
+                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fab fa-instagram"></i> </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                  <a href="#">
+                    <button class="bg-white rounded-lg p-3 text-black relative z1">
+                      <i class="fal fa-phone-volume text-2xl font-bold"> +90 555 555 55 55 </i>
+                    </button>
+                  </a>
+                  <div class="mt-3">
+                    <a href="#">
+                      <i class="text-xl text-white far fa-map-marker-alt"> Lorem ipsum dolor sit amet. </i>
+                    </a>
+                    <div class="mt-3">
+                      <a href="#">
+                        <i class="text-xl text-white fal fa-phone-alt"> +90 0555 555 55 55 </i>
+                      </a>
+                    </div>
+                    <div class="mt-3">
+                      <a href="mailto:abc@gmail.com">
+                        <i class="text-xl text-white far fa-envelope"> abc@gmail.com </i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full">
+            <div class="bg-red-600 p-14 z-2">
+              <div class="w-full">
+                <h2 class="text-4xl font-bold text-white mt-5">Make an Appointment!</h2>
+                <p class="text-base text-white font-light">Let us answer everything you wonder!</p>
+              </div>
+              <div class="w-full h-full">
+                <input
+                  class="w-100 p-3 rounded-lg mt-3"
+                  type="text"
+                  name="name"
+                  placeholder="Name And Surname *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 rounded-lg mt-3"
+                  type="text"
+                  name="phone"
+                  placeholder="Phone Number *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 rounded-lg mt-3"
+                  type="text"
+                  name="E-Mail"
+                  placeholder="E-Mail Address *"
+                  id=""
+                />
+                <input
+                  class="w-100 p-3 rounded-lg mt-3 bg-black text-white text-3xl font-bold bg-gradient-to-l from-yellow-500"
+                  type="button"
+                  value="Contact Us"
+                  id=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script src="./js/slider.js"></script>
+
+  <script>
+    document.addEventListener("alpine:init", () => {
+      Alpine.store("accordion", {
+        tab: 0,
+      });
+
+      Alpine.data("accordion", (idx) => ({
+        init() {
+          this.idx = idx;
+        },
+        idx: -1,
+        handleClick() {
+          this.$store.accordion.tab = this.$store.accordion.tab === this.idx ? 0 : this.idx;
+        },
+        handleRotate() {
+          return this.$store.accordion.tab === this.idx ? "rotate-180" : "";
+        },
+        handleToggle() {
+          return this.$store.accordion.tab === this.idx ? `max-height: ${this.$refs.tab.scrollHeight}px` : "";
+        },
+      }));
+    });
+  </script>
+</html>
